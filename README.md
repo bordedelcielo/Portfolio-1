@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **creating more projects using JavaScript.**
 
-- 📝 I’d like to improve this project by **cleaning up the unused CSS & JavaScript and reformatting my portfolio display.**
+- 📝 I’d like to improve this project by **refactoring and cleaning up the unused CSS & JavaScript and reformatting my portfolio section.**
 
 - 👨‍💻 Here's the link to my portfolio [https://corricodes.netlify.app/](https://corricodes.netlify.app/)
 
