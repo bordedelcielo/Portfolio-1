@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **creating more projects using JavaScript.**
 
-- 🤝 I’m looking for help with **my slider - I would like it to scroll on a loop.**
+- 📝 I’d like to improve this project by **cleaning up the unused CSS & JavaScript and reformatting my portfolio display.**
 
 - 👨‍💻 Here's the link to my portfolio [https://corricodes.netlify.app/](https://corricodes.netlify.app/)
 
