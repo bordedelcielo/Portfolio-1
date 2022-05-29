@@ -26,10 +26,10 @@ Variables
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-1: hsl(332, 75%, 60%);
+  --clr-grey-2: hsl(332, 39%, 23%);
+  --clr-grey-3: hsl(332, 34%, 30%);
+  --clr-grey-4: hsl(332, 28%, 39%);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
@@ -89,6 +89,17 @@ img {
   display: block;
 }
 
+.teacher {
+  max-width: 15%;
+  border: var(--clr-grey-1) dotted 10px;
+  border-radius: 150px;
+  margin: auto;
+}
+
+.section {
+  display: inline-block;
+}
+
 h1,
 h2,
 h3,
@@ -138,6 +149,7 @@ p {
     line-height: 1;
   }
 }
+
 /*  global classes */
 
 .btn {
@@ -233,7 +245,7 @@ nav {
   color: var(--clr-secondary);
 }
 .logo {
-  height: 125px;
+  height: 80px;
 }
 .links-container {
   height: 0;
@@ -300,8 +312,8 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./beach-bg.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(63, 208, 212, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./piano.jpg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
