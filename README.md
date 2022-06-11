@@ -5,7 +5,7 @@
 
 - 📝 I’d like to improve this project by **refactoring and cleaning up the unused CSS & JavaScript and reformatting my portfolio section.**
 
-- 👨‍💻 Here's the link to my portfolio [https://corricodes.netlify.app/](https://corricodes.netlify.app/)
+- 👨‍💻 Here's the link to my portfolio [CorriCodes](https://corricodes.netlify.app/)
 
 - ⚡ Fun fact **I began my coding career because I wanted to build a website for my own teaching studio and fell in love with coding 😍**
 
