@@ -2,584 +2,452 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--==================== UNICONS ====================-->
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
-  <!--==================== SWIPER CSS ====================-->
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-  <!--==================== CSS ====================-->
-  <link rel="stylesheet" href="./css/styles.css" />
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/styles.css">
 
-  <!--==================== SWIPER JS ====================-->
-  <script src="./js/swiper-bundle.min.js" defer></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="" defer></script>
 
-  <!--==================== MAIN JS ====================-->
-  <script src="./js/app.js" defer></script>
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="/js/mixitup.min.js" defer></script>
 
-  <title>CorriCodes</title>
+    <!--=============== MAIN JS ===============-->
+    <script src="/js/main.js" defer></script>
+
+    <title>CorriCodes</title>
 </head>
 
 <body>
-  <!--==================== HEADER ====================-->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">CorriCodes</a>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">CorriCodes</a>
 
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list grid">
-          <li class="nav__item">
-            <a href="#home" class="nav__link active-link">
-              <i class="uil uil-estate nav__icon"></i> Home
-            </a>
-          </li>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt nav_icon'></i> Home
+                        </a>
+                    </li>
 
-          <li class="nav__item">
-            <a href="#about" class="nav__link">
-              <i class="uil uil-user nav__icon"></i> About
-            </a>
-          </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i> About
+                        </a>
+                    </li>
 
-          <li class="nav__item">
-            <a href="#services" class="nav__link">
-              <i class="uil uil-briefcase-alt nav__icon"></i> Services
-            </a>
-          </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class='bx bx-briefcase-alt-2 nav_icon'></i> Services
+                        </a>
+                    </li>
 
-          <li class="nav__item">
-            <a href="#portfolio" class="nav__link">
-              <i class="uil uil-scenery nav__icon"></i> Portfolio
-            </a>
-          </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class='bx bx-palette nav_icon'></i> Portfolio
+                        </a>
+                    </li>
 
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">
-              <i class="uil uil-message nav__icon"></i> Contact Me
-            </a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav__close" id="nav-close"></i>
-      </div>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bx-envelope nav_icon'></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="bx bx-x nav_close" id="nav-close"></i>
+            </div>
 
-      <div class="nav__btns">
-        <!-- theme change button -->
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
+            <div class="nav_btns">
+                <!-- theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
-        </div>
-      </div>
-    </nav>
-  </header>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <!--==================== MAIN ====================-->
-  <main class="main">
-    <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__content grid">
-          <div class="home__social">
-            <a href="https://www.linkedin.com/in/corrigan-baker" target="_blank" class="home__social-icon">
-              <i class="uil uil-linkedin-alt"></i>
-            </a>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_greeting">Welcome to</span>
+                    <h1 class="home_name">CorriCodes</h1>
+                    <h3 class="home_jobtitle">Web Development and Design</h3>
 
-            <a href="https://twitter.com/corricodes" target="_blank" class="home__social-icon">
-              <i class="uil uil-twitter-alt"></i></i>
-            </a>
+                    <div class="home_buttons">
+                        <a href="/documents/web-cb-resume.pdf" target="_blank" class="button button-ghost">
+                            My Resume
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
 
-            <!-- <a href="https://www.instagram.com/corricodes" target="_blank" class="home__social-icon">
-              <i class="uil uil-instagram"></i></i></i>
-            </a> -->
+                    <ul class="home_social">
+                        <a href="https://www.linkedin.com/in/corrigan-baker" target="_blank" class="home_social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
 
-            <a href="https://github.com/corricodes" target="_blank" class="home__social-icon">
-              <i class="uil uil-github-alt"></i>
-            </a>
+                        <a href="https://github.com/corricodes" target="_blank" class="home_social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
 
-            <!-- <a href="https://trailblazer.me/id/corrigan-baker" target="_blank" class="home__social-icon">
-              <i class="uil uil-cloud"></i>
-            </a>
+                        <a href="https://twitter.com/corricodes" target="_blank" class="home_social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </ul>
 
-            <a href="https://angel.co/u/corrigan-baker" target="_blank" class="home__social-icon">
-              <i class="uil uil-suitcase-alt"></i>
-            </a> -->
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
 
-          </div>
+            </div>
+        </section>
 
-          <div class="home__img">
-            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <mask id="mask0" mask-type="alpha">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-              </mask>
-              <g mask="url(#mask0)">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                <image class="home__blob-img" x="0" y="-40" xlink:href="./images/corri.png" />
-              </g>
-            </svg>
-          </div>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
 
-          <div class="home__data">
-            <h1 class="home__title">Hi, I'm Corri</h1>
-            <h5>(Short for Corrigan)</h5>
-            </br>
-            <h3 class="home__subtitle">Full Stack Developer</h3>
-            <p class="home__description">
-              Specializing in web development and Ui/Ux design.
+            <div class="about_container container grid">
+
+                <div class="about_handle">
+                    <img src="/images/corri.png" alt="Corri" class="about_img">
+                </div>
+
+                <div class="about_data">
+
+
+                    <h2 class="section_title">Hi, I'm Corri</h2>
+                    <span class="section_subtitle">(Short for Corrigan)</span>
+                    <p class="about_description">
+                        My first coding project was when I was 13 years old and I built my own interactive doll dress-up
+                        website on
+                        Geocities.
+                        </br></br>
+                        My second project was coding my own Neopets store when I was about 14.
+                        </br></br>
+                        When I was 15, MySpace was the cool place to be after school, and I made money creating custom
+                        layouts for
+                        all my friends.
+                        </br></br>
+                        Now I am a creative and passionate professional software developer, with a strong work ethic and
+                        talent in applying analytical and creative thinking to develop user-friendly
+                        interfaces.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section" id="services">
+            <h2 class="section_title">Services</h2>
+            <span class="section_subtitle">What I Offer</span>
+
+            <div class="services_container container grid">
+
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services_card">
+                    <i class="uil uil-arrow services_icon"></i>
+                    <h3 class="services_title">Front End </br> Development</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Front End Development</h3>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Web page developement.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Responsive and mobile design.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">User-friendly and interactive sites.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Organized page layouts.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services_card">
+                    <i class="uil uil-server-network services_icon"></i>
+                    <h3 class="services_title">Back End </br> Development</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Back End Development</h3>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Server-side web application.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Web services and APIs.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Databases and cache.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Troubleshooting and debugging.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services_card">
+                    <i class="uil uil-web-grid services_icon"></i>
+                    <h3 class="services_title">Ui/Ux </br> Design</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Ui/Ux Design</h3>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Develop user interface.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Create ux element interactions.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Assist clients in designing website prototypes.</p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check-square services_modal-icon'></i>
+                                    <p class="services_modal-info">Build simple and artistic designs.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== PORTFOLIO ===============-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">My recent work</span>
+
+            <div class="portfolio_filters">
+                <span class="portfolio_item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio_item" data-filter=".web">Web</span>
+                <span class="portfolio_item" data-filter=".games">Games</span>
+                <!-- <span class="portfolio_item" data-filter=".apps">Apps</span> -->
+            </div>
+
+            <div class="portfolio_container container grid">
+
+                <a href="/demos/nyan-cat-game/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix games">
+                    <img src="/images/portfolio1.png" alt="Nyan Cat Game" class="portfolio_img">
+                        <h3 class="portfolio_title">Nyan Cat Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+                <a href="/demos/music-site/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix web">
+                    <img src="/images/portfolio2.png" alt="Music Lessons Site" class="portfolio_img">
+                    <h3 class="portfolio_title">Music Lessons Site</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+                <a href="/demos/menu/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix web">
+                    <img src="/images/portfolio3.png" alt="Menu Site" class="portfolio_img">
+                    <h3 class="portfolio_title">Menu Site</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+                <a href="/demos/tab/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix web">
+                    <img src="/images/portfolio4.png" alt="Tab Site" class="portfolio_img">
+                    <h3 class="portfolio_title">Tab Site</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+                <a href="/demos/snake-game/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix games">
+                    <img src="/images/portfolio5.png" alt="Nokia Snake Game" class="portfolio_img">
+                    <h3 class="portfolio_title">Nokia Snake Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+                <a href="/demos/tic-tac-toe/index.html" target="_blank" class="portfolio_button">
+                <div class="portfolio_card mix games">
+                    <img src="/images/portfolio6.png" alt="Tic-Tac-Toe Game" class="portfolio_img">
+                    <h3 class="portfolio_title">Tic-Tac-Toe Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </div>
+                </a>
+
+
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+
+            <div class="contact_container container grid">
+
+                <form action="https://formsubmit.co/corriganbaker@gmail.com" method="POST" class="contact_form grid"
+                    id="email">
+
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" name="name" class="contact_input form-control" required />
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" name="email" class="contact_input form-control" required />
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="_next" value="https://corricodes.netlify.app/pages/thanks">
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Subject</label>
+                        <input type="text" name="subject" class="contact_input form-control" required />
+                    </div>
+
+                    <div class="contact_content contact_form-area">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" class="contact_input form-control"
+                            placeholder="Send me a message!" required></textarea>
+                    </div>
+
+
+
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send
+                            <i class='bx bx-send button_icon'></i>
+                        </button>
+                    </div>
+
+
+
+                </form>
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">CorriCodes</h1>
+                    <span class="footer_subtitle">Web Development and Design</span>
+                </div>
+
+                <ul class="footer_social">
+                    <a href="https://www.linkedin.com/in/corrigan-baker" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+
+                    <a href="https://github.com/corricodes" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+
+                    <a href="https://twitter.com/corricodes" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </ul>
+
+            </div>
+
+            <p class="footer_copy">
+                &#169; CorriCodes <span id="date"> </span>. All rights reseved.
             </p>
-            <a href="#contact" class="button button--flex">
-              Contact Me <i class="uil uil-message button__icon"></i>
-            </a>
-          </div>
         </div>
+    </footer>
 
-        <div class="home__scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-            <span class="home__scroll-name">Scroll down</span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-          </a>
-        </div>
-      </div>
-    </section>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
 
-    <!--==================== ABOUT ====================-->
-    <section class="about section" id="about">
-      <h2 class="section__title">About Me</h2>
-      <span class="section__subtitle">My introduction</span>
-
-      <div class="about__container container grid">
-        <img src="./images/corri2.jpg" alt="Corri" class="about__img" />
-
-        <div class="about__data">
-          <p class="about__description">
-            My first coding project was when I was 13 years old and I built my own interactive doll dress-up website on
-            Geocities.
-            </br></br>
-            My second project was coding my own Neopets store when I was about 14.
-            </br></br>
-            When I was 15, MySpace was the cool place to be after school, and I made money creating custom layouts for
-            all my friends.
-            </br></br>
-            Now I am a creative and passionate professional software developer, with a strong work ethic and
-            talent in applying analytical and creative thinking to develop user-friendly
-            interfaces.
-          </p>
-
-          <div class="about__buttons">
-            <a href="./documents/web-cb-resume.pdf" class="button button--flex" target="_blank">
-              My Resume<i class="uil uil-file-alt"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== SERVICES ====================-->
-    <section class="services section" id="services">
-      <h2 class="section__title">Services</h2>
-      <span class="section__subtitle">What I Offer</span>
-
-      <div class="services__container container grid">
-        <!--==================== SERVICES 1 ====================-->
-        <div class="services__content">
-          <div>
-            <i class="uil uil-arrow services__icon"></i>
-            <h3 class="services__title">
-              Frontend <br />
-              Developer
-            </h3>
-          </div>
-
-          <span class="button button--flex button--small button--link services__button">
-            View More
-            <i class="uil uil-arrow-right button__icon"></i>
-          </span>
-
-          <div class="services__modal">
-            <div class="services__modal-content">
-              <h4 class="services__modal-title">
-                Frontend <br />
-                Developer
-              </h4>
-              <i class="uil uil-times services__modal-close"></i>
-
-              <ul class="services__modal-services grid">
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Web page developement.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Responsive and mobile design.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>User friendly and interactive sites.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Organized page layouts.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--==================== SERVICES 2 ====================-->
-        <div class="services__content">
-          <div>
-            <i class="uil uil-server-network services__icon"></i>
-            <h3 class="services__title">
-              Backend <br />
-              Developer
-            </h3>
-          </div>
-
-          <span class="button button--flex button--small button--link services__button">
-            View More
-            <i class="uil uil-arrow-right button__icon"></i>
-          </span>
-
-          <div class="services__modal">
-            <div class="services__modal-content">
-              <h4 class="services__modal-title">
-                Backend <br />
-                Developer
-              </h4>
-              <i class="uil uil-times services__modal-close"></i>
-
-              <ul class="services__modal-services grid">
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Server-side web application.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Web services and APIs.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Databases & cache.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Troubleshooting & debugging.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--==================== SERVICES 3 ====================-->
-        <div class="services__content">
-          <div>
-            <i class="uil uil-web-grid services__icon"></i>
-            <h3 class="services__title">
-              Ui/Ux <br />
-              Designer
-            </h3>
-          </div>
-
-          <span class="button button--flex button--small button--link services__button">
-            View More
-            <i class="uil uil-arrow-right button__icon"></i>
-          </span>
-
-          <div class="services__modal">
-            <div class="services__modal-content">
-              <h4 class="services__modal-title">
-                Ui/Ux <br />
-                Designer
-              </h4>
-              <i class="uil uil-times services__modal-close"></i>
-
-              <ul class="services__modal-services grid">
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Develop user interface.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Create ux element interactions.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Assist clients in designing website prototypes.</p>
-                </li>
-
-                <li class="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
-                  <p>Build simple and artistic designs.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== PORTFOLIO ====================-->
-    <section class="portfolio section" id="portfolio">
-      <h2 class="section__title">My Portfolio</h2>
-      <span class="section__subtitle">My most recent projects.</span>
-
-      <div class="portfolio__container container swiper-container">
-        <div class="swiper-wrapper">
-
-          <!--==================== PORTFOLIO 1 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio1.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Nyan-Cat Game</h3>
-              <p class="portfolio__description">
-                Hit the space bar to make Nyan-Cat jump over the comets. If the Nyan-Cat collides with the comet, the
-                game
-                is over!
-              </p>
-              <a href="/demos/nyan-cat-game" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!--==================== PORTFOLIO 2 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio2.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Music Lesson Website</h3>
-              <p class="portfolio__description">
-                This is my layout for my online music lessons site. I used Figma to design the logo and coded the site
-                using HTML, CSS & JavaScript.
-              </p>
-              <a href="/demos/music-site/index.html" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!--==================== PORTFOLIO 3 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio3.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Menu Website</h3>
-              <p class="portfolio__description">
-                A website showing menu items that can be displayed by the
-                category they are in.
-              </p>
-              <a href="/demos/menu/index.html" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!--==================== PORTFOLIO 4 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio4.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Tab Website</h3>
-              <p class="portfolio__description">
-                A website with tabs that can display different texts depending
-                on the open tab.
-              </p>
-              <a href="/demos/tab/index.html" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!--==================== PORTFOLIO 5 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio5.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Nokia Snake Game</h3>
-              <p class="portfolio__description">
-                The Nokia Snake Game featuring many JavaScript functions. Use the arrow keys to catch the apple - the
-                snake will get longer and faster as you level up, but be careful not to hit the walls or itself!
-              </p>
-              <a href="/demos/snake-game/index.html" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!--==================== PORTFOLIO 6 ====================-->
-          <div class="portfolio__content grid swiper-slide">
-            <img src="./images/portfolio6.png" alt="portfolio site" class="portfolio__img" />
-
-            <div class="portfolio__data">
-              <h3 class="portfolio__title">Tic-Tac-Toe</h3>
-              <p class="portfolio__description">
-                A Tic-Tac-Toe game built using HTML, CSS & JavaScript - one of my first projects!
-              </p>
-              <a href="/demos/tic-tac-toe/index.html" class="button button--flex button--small portfolio__button"
-                target="_blank">
-                Demo
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-
-        </div>
-
-        <!-- add arrows -->
-        <div class="swiper-button-next">
-          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-        <div class="swiper-button-prev">
-          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
-
-        <!-- add pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
-
-    <!--==================== CONTACT ME ====================-->
-    <section class="contact section" id="contact">
-      <h2 class="section__title">Contact Me</h2>
-      <span class="section__subtitle">Get in touch</span>
-
-      <div class="contact__container container grid">
-        <div>
-
-          <div class="contact__information">
-            <i class="uil uil-envelope contact__icon"></i>
-
-            <div>
-              <h3 class="contact__title">Email</h3>
-              <span class="contact__subtitle">Send me a detailed message!</span>
-            </div>
-          </div>
-
-          <div class="contact__information">
-            <i class="uil uil-map-marker contact__icon"></i>
-
-            <div>
-              <h3 class="contact__title">Location</h3>
-              <span class="contact__subtitle">
-                Ontario, Canada</span>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-        <form action="https://formsubmit.co/corriganbaker@gmail.com" method="POST" class="contact__form grid">
-
-          <div class="contact__inputs grid">
-            <div class="contact__content">
-              <label for="" class="contact__label">Name</label>
-              <input type="text" name="name" class="contact__input form-control" required />
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="contact__label">Email</label>
-              <input type="email" name="email" class="contact__input form-control" required />
-            </div>
-          </div>
-
-          <input type="hidden" name="_next" value="https://corricodes.netlify.app/pages/thanks">
-
-          <div class="contact__content">
-            <label for="" class="contact__label">Subject</label>
-            <input type="text" name="subject" class="contact__input form-control" required />
-          </div>
-
-          <div class="contact__content">
-            <label for="" class="contact__label">Message</label>
-            <textarea name="message" id="" cols="0" rows="7" class="contact__input form-control"
-              placeholder="Send me a message!" required></textarea>
-          </div>
-
-
-
-
-          <div>
-            <button type="submit" class="button button--flex">
-              Send
-              <i class="uil uil-message button__icon"></i>
-            </button>
-          </div>
-
-
-
-        </form>
-
-
-
-      </div>
-    </section>
-  </main>
-
-  <!--==================== FOOTER ====================-->
-  <footer class="footer">
-    <div class="footer__bg">
-      <div class="footer__container container grid">
-        <div>
-          <h1 class="footer__title">CorriCodes</h1>
-          <span class="footer__subtitle">Web Developer</span>
-        </div>
-
-        <ul class="footer__links">
-          <li>
-            <a href="#services" class="footer__link">Services</a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="footer__link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="footer__link">Contact</a>
-          </li>
-        </ul>
-
-      </div>
-
-      <p class="footer__copy">
-        &#169; CorriCodes <span id="date"> </span>. All rights reseved.
-      </p>
-    </div>
-  </footer>
-
-  <!--==================== SCROLL TOP ====================-->
-  <a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup__icon"></i>
-  </a>
 </body>
 
 </html>
