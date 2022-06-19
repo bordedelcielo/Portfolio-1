@@ -91,6 +91,16 @@ body {
   transition: 0.4s; /* for light mode animation */
 }
 
+hr {
+  max-width: 80%;
+  margin: auto;
+  height: .5rem;
+  background: var(--background-image);
+  background-attachment: fixed;
+  border: none;
+  border-radius: .25rem;
+}
+
 h1,
 h2,
 h3 {
@@ -227,7 +237,7 @@ body.light-theme {
   font-size: var(--smallest-font-size);
   color: var(--text-color-light);
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*=============== HEADER & NAV===============*/
@@ -959,7 +969,7 @@ body.light-theme {
     padding: 6rem 0 2rem;
   }
   .section_subtitle {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   .header {
@@ -1058,7 +1068,7 @@ body.light-theme {
   }
 
   .section_title {
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.5rem;
   }
   
 }
