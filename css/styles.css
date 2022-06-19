@@ -668,9 +668,7 @@ body.light-theme {
 .portfolio_card {
   background-color: var(--container-color);
   padding: 1rem;
-  border-radius: 1rem;
-  /* added */
-  width: 25rem;
+  border-radius: 1rem;  
 }
 
 .portfolio_img {
