@@ -126,17 +126,17 @@ const selectedIcon = localStorage.getItem("selected-icon");
 
 // we obtain the current theme that the interface has by validating the light-theme class
 const getCurrentTheme = () =>
-  document.body.classList.contains(lightTheme) ? "dark" : "light";
+  document.body.classList.contains(lightTheme) ? "light" : "dark";
 const getCurrentIcon = () =>
-  themeButton.classList.contains(iconTheme) ? "bx-moon" : "bx-sun";
+  themeButton.classList.contains(iconTheme) ? "bx-sun" : "bx-moon";
 
-  // we validate if the user previously chose a topic
+// we validate if the user previously chose a topic
 if (selectedTheme) {
   // if the validation is fulfilled, we ask what the issue was to know if we activated or deactivated light mode
-  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
+  document.body.classList[selectedTheme === "light" ? "add" : "remove"](
     lightTheme
   );
-  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "uil-sun" ? "add" : "remove"](
     iconTheme
   );
 }
@@ -152,7 +152,6 @@ themeButton.addEventListener("click", () => {
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-
 
 /*=============== COPY DATE ===============*/
 const date = document.getElementById("date");
