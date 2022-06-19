@@ -118,6 +118,11 @@ img {
 }
 
 /*=============== THEME ===============*/
+.nav_btns {
+  display: flex;
+  align-items: center;
+}
+
 .change-theme {
   font-size: 1.25rem;
   cursor: pointer;
@@ -261,6 +266,12 @@ body.light-theme {
 
 .nav_toggle:hover {
   color: var(--first-color);
+}
+
+#nav-toggle,
+#theme-button {
+  padding: 2px;
+  margin: 2px;
 }
 
 @media screen and (max-width: 767px) {
