@@ -56,7 +56,7 @@
 /* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 2.5rem;
+    /* --biggest-font-size: 2.5rem; */
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
@@ -876,7 +876,7 @@ body.light-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .nav_menu {
     padding: 1rem 1.5rem;
   }
@@ -1013,7 +1013,7 @@ body.light-theme {
   }
 
   .home_container {
-    padding-top: 4rem;
+    padding-top: 1.5rem;
     row-gap: 5rem;
   }
   .home_scroll {
@@ -1086,5 +1086,12 @@ body.light-theme {
     font-size: var(--biggest-font-size);
     margin-top: 0;
     padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home_container {
+    padding-top: 10rem;
+    row-gap: 5rem;
   }
 }
