@@ -152,3 +152,8 @@ themeButton.addEventListener("click", () => {
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+
+/*=============== COPY DATE ===============*/
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
