@@ -136,7 +136,7 @@ if (selectedTheme) {
   document.body.classList[selectedTheme === "light" ? "add" : "remove"](
     lightTheme
   );
-  themeButton.classList[selectedIcon === "uil-sun" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "bx-sun" ? "add" : "remove"](
     iconTheme
   );
 }
