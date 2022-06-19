@@ -1,9 +1,7 @@
 <h1 align="center">This is my Portfolio</h1>
 <h3 align="center">A collection of my most recent projects.</h3>
 
-- 🔭 I’m currently working on **creating more projects using JavaScript.**
-
-- 📝 I’d like to improve this project by **refactoring and cleaning up the unused CSS & JavaScript and reformatting my portfolio section.**
+- 🔭 I’m currently working on **creating more projects using JavaScript and other languages I've learned.**
 
 - 👨‍💻 Here's the link to my portfolio [CorriCodes](https://corricodes.netlify.app/).
 
