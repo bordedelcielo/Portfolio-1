@@ -511,6 +511,7 @@ body.light-theme {
 
 .about_description {
   margin: auto;
+  padding-right: 1rem;
 }
 
 .about_img {
@@ -931,11 +932,6 @@ body.light-theme {
   padding-top: 0;
 }
 
-.about_container,
-.project_container {
-  grid-template-columns: repeat(2, 1fr);
-}
-
 @media screen and (min-width: 576px) {
   .home_container {
     padding: 0;
@@ -1021,10 +1017,17 @@ body.light-theme {
   }
 
   .about_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_container {
     column-gap: 5rem;
   }
+  .about_handle {
+    width: 300px;
+    height: 370px;
+  }
   .about_img {
-    width: 350px;
+    width: 300px;
   }
   .about_description {
     text-align: initial;
@@ -1059,7 +1062,7 @@ body.light-theme {
     grid-template-columns: repeat(2, max-content);
   }
   .portfolio_card {
-    width: 450px;
+    width: 350px;
   }
   .portfolio_data {
     padding-top: 0.8rem;
