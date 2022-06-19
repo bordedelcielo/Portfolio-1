@@ -13,7 +13,7 @@
 
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -44,6 +44,12 @@
                     </li>
 
                     <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class='bx bx-palette nav_icon'></i> Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
                         <a href="#about" class="nav_link">
                             <i class='bx bx-user nav_icon'></i> About
                         </a>
@@ -52,12 +58,6 @@
                     <li class="nav_item">
                         <a href="#services" class="nav_link">
                             <i class='bx bx-briefcase-alt-2 nav_icon'></i> Services
-                        </a>
-                    </li>
-
-                    <li class="nav_item">
-                        <a href="#portfolio" class="nav_link">
-                            <i class='bx bx-palette nav_icon'></i> Portfolio
                         </a>
                     </li>
 
@@ -113,7 +113,7 @@
                     </ul>
 
                     <div class="home_scroll">
-                        <a href="#about" class="home_scroll-button">
+                        <a href="#portfolio" class="home_scroll-button">
                             <i class="uil uil-mouse-alt home_scroll-mouse"></i>
                             <span class="home_scroll-name">Scroll down</span>
                             <i class="uil uil-arrow-down home_scroll-arrow"></i>
@@ -123,6 +123,81 @@
 
             </div>
         </section>
+
+        <!--=============== PORTFOLIO ===============-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">My recent work</span>
+
+            <div class="portfolio_filters">
+                <span class="portfolio_item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio_item" data-filter=".web">Web</span>
+                <span class="portfolio_item" data-filter=".games">Games</span>
+                <span class="portfolio_item" data-filter=".apps">Apps</span>
+            </div>
+
+            <div class="portfolio_container container grid">
+
+                <!--=============== PORTFOLIO 1 ===============-->
+                <div class="portfolio_card mix games">
+                    <a href="/demos/nyan-cat-game/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio1.png" alt="Nyan Cat Game" class="portfolio_img">
+                        <h3 class="portfolio_title">Nyan Cat Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+                <!--=============== PORTFOLIO 2 ===============-->
+                <div class="portfolio_card mix web">
+                    <a href="/demos/music-site/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio2.png" alt="Music Lessons Site" class="portfolio_img">
+                        <h3 class="portfolio_title">Music Lessons Site</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+                <!--=============== PORTFOLIO 3 ===============-->
+                <div class="portfolio_card mix apps">
+                    <a href="/demos/reviews/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio3.png" alt="Review App" class="portfolio_img">
+                        <h3 class="portfolio_title">Review App</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+                <!--=============== PORTFOLIO 4 ===============-->
+                <div class="portfolio_card mix web">
+                    <a href="/demos/tab/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio4.png" alt="Tab Site" class="portfolio_img">
+                        <h3 class="portfolio_title">Tab Site</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+                <!--=============== PORTFOLIO 5 ===============-->
+                <div class="portfolio_card mix games">
+                    <a href="/demos/snake-game/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio5.png" alt="Nokia Snake Game" class="portfolio_img">
+                        <h3 class="portfolio_title">Nokia Snake Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+                <!--=============== PORTFOLIO 6 ===============-->
+                <div class="portfolio_card mix games">
+                    <a href="/demos/tic-tac-toe/index.html" target="_blank" class="portfolio_button">
+                        <img src="/images/portfolio6.png" alt="Tic-Tac-Toe Game" class="portfolio_img">
+                        <h3 class="portfolio_title">Tic-Tac-Toe Game</h3>
+                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <hr>
 
         <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
@@ -139,13 +214,16 @@
                     <h2 class="section_title">Hi, I'm Corri 👾</h2>
                     <span class="section_subtitle">(Short for Corrigan)</span>
                     <p class="about_description">
-                        I first started coding websites when I was 12 years old using HTML and Flash on Geocities and Neopets. Later on I began making custom MySpace layouts for all my 
+                        I first started coding websites when I was 12 years old using HTML and Flash on Geocities and
+                        Neopets. Later on I began making custom MySpace layouts for all my
                         friends because I had the experience to create unique and beautiful designs.
                         </br></br>
-                        Now, I'm a highly skilled and creative web developer and designer based in Ontario, Canada. I build user-friendly websites and applications that are inspired by art and nature, while also 
+                        Now, I'm a highly skilled and creative web developer and designer based in Ontario, Canada. I
+                        build user-friendly websites and applications that are inspired by art and nature, while also
                         keeping accessabilty in mind.
                         </br></br>
-                        Some of my skills include: HTML/CSS, JavaScript, SQL & NoSQL, Python, React, Node.js, Salesforce, Figma, Blender, and much more!
+                        Some of my skills include: HTML/CSS, JavaScript, SQL & NoSQL, Python, React, Node.js,
+                        Salesforce, Figma, Blender, and much more!
                     </p>
                 </div>
 
@@ -284,81 +362,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <hr>
-
-        <!--=============== PORTFOLIO ===============-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section_title">Portfolio</h2>
-            <span class="section_subtitle">My recent work</span>
-
-            <div class="portfolio_filters">
-                <span class="portfolio_item active-portfolio" data-filter="all">All</span>
-                <span class="portfolio_item" data-filter=".web">Web</span>
-                <span class="portfolio_item" data-filter=".games">Games</span>
-                <span class="portfolio_item" data-filter=".apps">Apps</span>
-            </div>
-
-            <div class="portfolio_container container grid">
-
-                <!--=============== PORTFOLIO 1 ===============-->
-                <div class="portfolio_card mix games">
-                    <a href="/demos/nyan-cat-game/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio1.png" alt="Nyan Cat Game" class="portfolio_img">
-                        <h3 class="portfolio_title">Nyan Cat Game</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-                <!--=============== PORTFOLIO 2 ===============-->
-                <div class="portfolio_card mix web">
-                    <a href="/demos/music-site/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio2.png" alt="Music Lessons Site" class="portfolio_img">
-                    <h3 class="portfolio_title">Music Lessons Site</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-                <!--=============== PORTFOLIO 3 ===============-->
-                <div class="portfolio_card mix apps">
-                    <a href="/demos/reviews/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio3.png" alt="Review App" class="portfolio_img">
-                    <h3 class="portfolio_title">Review App</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-                <!--=============== PORTFOLIO 4 ===============-->
-                <div class="portfolio_card mix web">
-                    <a href="/demos/tab/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio4.png" alt="Tab Site" class="portfolio_img">
-                    <h3 class="portfolio_title">Tab Site</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-                <!--=============== PORTFOLIO 5 ===============-->
-                <div class="portfolio_card mix games">
-                    <a href="/demos/snake-game/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio5.png" alt="Nokia Snake Game" class="portfolio_img">
-                    <h3 class="portfolio_title">Nokia Snake Game</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-                <!--=============== PORTFOLIO 6 ===============-->
-                <div class="portfolio_card mix games">
-                    <a href="/demos/tic-tac-toe/index.html" target="_blank" class="portfolio_button">
-                    <img src="/images/portfolio6.png" alt="Tic-Tac-Toe Game" class="portfolio_img">
-                    <h3 class="portfolio_title">Tic-Tac-Toe Game</h3>
-                        Demo <i class='bx bx-right-arrow-alt portfolio_icon'></i>
-                    </a>
-                    </div>
-
-
-            </div>
-
         </section>
 
         <hr>
