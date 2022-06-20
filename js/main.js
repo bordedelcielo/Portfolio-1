@@ -38,6 +38,26 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
+/*=============== MIXITUP FILTER PORTFOLIO ===============*/
+let mixerPortfolio = mixitup(".portfolio_container", {
+  selectors: {
+    target: ".portfolio_card",
+  },
+  animation: {
+    duration: 300,
+  },
+});
+
+/* Link active portfolio */
+const linkPortfolio = document.querySelectorAll(".portfolio_item");
+
+function activePortfolio() {
+  linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
+  this.classList.add("active-portfolio");
+}
+
+linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
+
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll(".services_modal"),
   modalBtns = document.querySelectorAll(".services_button"),
@@ -60,26 +80,6 @@ modalCloses.forEach((modalClose) => {
     });
   });
 });
-
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
-let mixerPortfolio = mixitup(".portfolio_container", {
-  selectors: {
-    target: ".portfolio_card",
-  },
-  animation: {
-    duration: 300,
-  },
-});
-
-/* Link active portfolio */
-const linkPortfolio = document.querySelectorAll(".portfolio_item");
-
-function activePortfolio() {
-  linkPortfolio.forEach((l) => l.classList.remove("active-portfolio"));
-  this.classList.add("active-portfolio");
-}
-
-linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
