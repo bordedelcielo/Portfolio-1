@@ -396,6 +396,7 @@ body.light-theme {
 .home_name {
   font-size: var(--biggest-font-size);
   font-family: "Alegreya Sans SC", sans-serif;
+  text-shadow: #000 1px 0 3px;
 }
 
 #corri {
