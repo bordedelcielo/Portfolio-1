@@ -152,6 +152,20 @@ themeButton.addEventListener("click", () => {
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+  // reset: true,
+});
+
+sr.reveal(`.home_data`);
+sr.reveal(`.home_name`, { delay: 700 });
+sr.reveal(`.home_greeting`, { delay: 900 });
+sr.reveal(`.home_jobtitle`, { delay: 1100, origin: "right" });
+sr.reveal(`.home_buttons, .home_social`, { delay: 1100, origin: "left" });
+sr.reveal(`.home_scroll`, { delay: 1300, origin: "bottom" });
 
 /*=============== COPY DATE ===============*/
 const date = document.getElementById("date");
