@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -395,16 +395,6 @@ body.light-theme {
 
 .home_name {
   font-size: var(--biggest-font-size);
-  font-family: "Alegreya Sans SC", sans-serif;
-  text-shadow: var(--text-color) 1px 0 10px;
-}
-
-#corri {
-  color: #e995c6;
-}
-
-#codes {
-  color: #7a368d;
 }
 
 .home_buttons {
@@ -798,7 +788,6 @@ body.light-theme {
 .footer_title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
-  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .footer_subtitle {
