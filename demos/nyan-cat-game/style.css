@@ -17,7 +17,7 @@ h2 {
   position: absolute;
   width: 150px;
   height: 150px;
-  background-image: url(/images/nyan-cat.gif);
+  background-image: url(/demos/nyan-cat-game/images/nyan-cat.gif);
   background-size: contain;
   bottom: 0px;
 }
@@ -26,7 +26,7 @@ h2 {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-image: url(/images/comet.png);
+  background-image: url(/demos/nyan-cat-game/images/comet.png);
   background-size: contain;
   bottom: 50px;
 }
@@ -54,7 +54,7 @@ h2 {
 #space {
   position: absolute;
   bottom: 0px;
-  background-image: url(/images/nyan-cat-backgrounds.jpg);
+  background-image: url(/demos/nyan-cat-game/images/nyan-cat-backgrounds.jpg);
   background-repeat: repeat-x;
   animation: slideright 1200s infinite linear;
   -webkit-animation: slideright 1200s infinite linear;
