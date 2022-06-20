@@ -346,7 +346,7 @@ body.light-theme {
 
 /* Active link */
 .active-link {
-  color: var(--title-color);
+  color: var(--first-color);
 }
 
 /* Change background header */
