@@ -689,6 +689,10 @@ body.light-theme {
   margin-bottom: 0.25rem;
 }
 
+.portfolio_icon {
+  color: var(--first-color);
+}
+
 .portfolio_button {
   width: max-content;
   color: var(--first-color);
