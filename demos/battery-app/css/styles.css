@@ -49,7 +49,7 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-image: url(/images/leaf-bg.jpg);
+  background-image: url(/demos/battery-app/images/leaf-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   color: var(--text-color);
