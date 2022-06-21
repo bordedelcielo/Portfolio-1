@@ -279,14 +279,6 @@ a {
   font-weight: var(--font-medium);
 }
 
-.footer {
-    text-align: center;
-}
-
-.footer a {
-    color: var(--first-color);
-}
-
 /*=============== MEDIA QUERIES ===============*/
 /* For large devices */
 @media screen and (min-width: 968px) {
