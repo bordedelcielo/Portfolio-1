@@ -10,22 +10,22 @@
   --title-color: hsl(var(--hue-color), 66%, 15%);
   --text-color: hsl(var(--hue-color), 12%, 35%);
   --text-color-light: hsl(var(--hue-color), 12%, 65%);
-  --white-color: #FFF;
+  --white-color: #fff;
   --body-color: hsl(var(--hue-color), 24%, 94%);
   --background-image: url(/demos/clock-app/images/light-bgg.jpg);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --biggest-font-size: 3rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
-  --tiny-font-size: .625rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --tiny-font-size: 0.625rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
 
   /*========== Margenes Bottom ==========*/
-  --mb-0-25: .25rem;
+  --mb-0-25: 0.25rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2-5: 2.5rem;
@@ -38,9 +38,9 @@
 @media screen and (min-width: 968px) {
   :root {
     --biggest-font-size: 3.5rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-    --tiny-font-size: .75rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    --tiny-font-size: 0.75rem;
   }
 }
 
@@ -58,27 +58,27 @@ body.dark-theme {
   top: -1rem;
   right: -1rem;
   display: flex;
-  padding: .25rem;
+  padding: 0.25rem;
   border-radius: 50%;
-  box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 0%, 100%, 1), 
-              inset 1px 1px 1px hsla(var(--hue-color), 30%, 86%, 1);
+  box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 0%, 100%, 1),
+    inset 1px 1px 1px hsla(var(--hue-color), 30%, 86%, 1);
   color: var(--first-color);
   cursor: pointer;
   /* for dark animation */
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /*========== Box shadow Dark theme ==========*/
 .dark-theme .clock_circle {
-  box-shadow: 6px 6px 16px hsla(var(--hue-color), 8%, 12%, 1), 
-              -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1), 
-              inset -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1), 
-              inset 6px 6px 12px hsla(var(--hue-color), 8%, 12%, 1);
+  box-shadow: 6px 6px 16px hsla(var(--hue-color), 8%, 12%, 1),
+    -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1),
+    inset -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1),
+    inset 6px 6px 12px hsla(var(--hue-color), 8%, 12%, 1);
 }
 
 .dark-theme .clock_theme {
-  box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 8%, 20%, 1), 
-              inset 1px 1px 1px hsla(var(--hue-color), 8%, 12%, 1);
+  box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 8%, 20%, 1),
+    inset 1px 1px 1px hsla(var(--hue-color), 8%, 12%, 1);
 }
 
 /*=============== BASE ===============*/
@@ -96,7 +96,7 @@ body {
   background-size: cover;
   color: var(--text-color);
   /* for dark animation */
-  transition: .4s;
+  transition: 0.4s;
 }
 
 a {
@@ -124,17 +124,17 @@ a {
   position: relative;
   width: 200px;
   height: 200px;
-  box-shadow: -6px -6px 16px var(--white-color), 
-              6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
-              inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
-              inset -6px -6px 16px var(--white-color);
+  box-shadow: -6px -6px 16px var(--white-color),
+    6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1),
+    inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1),
+    inset -6px -6px 16px var(--white-color);
   border-radius: 50%;
   justify-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
   /* for dark animation */
-  transition: .4s;
+  transition: 0.4s;
   background: var(--body-color);
 }
 
@@ -143,9 +143,9 @@ a {
   row-gap: 3.5rem;
 }
 
-.clock_twelve, 
-.clock_three, 
-.clock_six, 
+.clock_twelve,
+.clock_three,
+.clock_six,
 .clock_nine {
   position: absolute;
   width: 1rem;
@@ -153,7 +153,7 @@ a {
   background-color: var(--text-color-light);
 }
 
-.clock_twelve, 
+.clock_twelve,
 .clock_six {
   transform: translateX(-50%) rotate(90deg);
 }
@@ -165,7 +165,7 @@ a {
 
 .clock_three {
   top: 50%;
-  right: .75rem;
+  right: 0.75rem;
 }
 
 .clock_six {
@@ -174,21 +174,21 @@ a {
 }
 
 .clock_nine {
-  left: .75rem;
+  left: 0.75rem;
   top: 50%;
 }
 
 .clock_rounder {
-  width: .75rem;
-  height: .75rem;
+  width: 0.75rem;
+  height: 0.75rem;
   background-color: var(--first-color);
   border-radius: 50%;
   border: 2px solid var(--body-color);
   z-index: var(--z-tooltip);
 }
 
-.clock_hour, 
-.clock_minutes, 
+.clock_hour,
+.clock_minutes,
 .clock_seconds {
   position: absolute;
   display: flex;
@@ -201,12 +201,12 @@ a {
 }
 
 .clock_hour::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--text-color);
-  width: .25rem;
+  width: 0.25rem;
   height: 3rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   z-index: var(--z-normal);
 }
 
@@ -216,12 +216,12 @@ a {
 }
 
 .clock_minutes::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--text-color);
-  width: .25rem;
+  width: 0.25rem;
   height: 4rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   z-index: var(--z-normal);
 }
 
@@ -231,12 +231,12 @@ a {
 }
 
 .clock_seconds::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--first-color);
-  width: .125rem;
+  width: 0.125rem;
   height: 5rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   z-index: var(--z-normal);
 }
 
@@ -247,7 +247,7 @@ a {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   color: var(--text-color-light);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .clock_logo:hover {
@@ -259,7 +259,7 @@ a {
   justify-content: center;
 }
 
-.clock_text-hour, 
+.clock_text-hour,
 .clock_text-minutes {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);

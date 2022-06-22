@@ -5,29 +5,37 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --gradient-color-red: linear-gradient(90deg, 
-                          hsl(7, 89%, 46%) 15%,
-                          hsl(11, 93%, 68%) 100%);
-  --gradient-color-orange: linear-gradient(90deg, 
-                           hsl(22, 89%, 46%) 15%,
-                           hsl(54, 90%, 45%) 100%);
-  --gradient-color-yellow: linear-gradient(90deg, 
-                           hsl(54, 89%, 46%) 15%,
-                           hsl(92, 90%, 45%) 100%);
-  --gradient-color-green: linear-gradient(90deg, 
-                          hsl(92, 89%, 46%) 15%,
-                          hsl(92, 90%, 68%) 100%);
+  --gradient-color-red: linear-gradient(
+    90deg,
+    hsl(7, 89%, 46%) 15%,
+    hsl(11, 93%, 68%) 100%
+  );
+  --gradient-color-orange: linear-gradient(
+    90deg,
+    hsl(22, 89%, 46%) 15%,
+    hsl(54, 90%, 45%) 100%
+  );
+  --gradient-color-yellow: linear-gradient(
+    90deg,
+    hsl(54, 89%, 46%) 15%,
+    hsl(92, 90%, 45%) 100%
+  );
+  --gradient-color-green: linear-gradient(
+    90deg,
+    hsl(92, 89%, 46%) 15%,
+    hsl(92, 90%, 68%) 100%
+  );
   --text-color: #fff;
   --body-color: hsl(0, 0%, 11%);
   --container-color: hsl(0, 0%, 9%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Rubik', sans-serif;
+  --body-font: "Rubik", sans-serif;
 
   --biggest-font-size: 2.5rem;
-  --normal-font-size: .938rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --smaller-font-size: 0.75rem;
 }
 
 /* Responsive typography */
@@ -35,7 +43,7 @@
   :root {
     --biggest-font-size: 2.75rem;
     --normal-font-size: 1rem;
-    --smaller-font-size: .813rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -73,11 +81,11 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  box-shadow: -18px 24px 50px 2px rgba(0,0,0,0.75);
+  box-shadow: -18px 24px 50px 2px rgba(0, 0, 0, 0.75);
 }
 
 .battery_text {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .battery_percentage {
@@ -89,7 +97,7 @@ body {
   bottom: 1.5rem;
   display: flex;
   align-items: center;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   font-size: var(--smaller-font-size);
 }
 
@@ -102,8 +110,8 @@ body {
   width: 75px;
   height: 180px;
   background-color: var(--container-color);
-  box-shadow: inset 20px 0 48px hsl(0, 0%, 16%), 
-              inset -4px 12px 48px hsl(0, 0%, 56%);
+  box-shadow: inset 20px 0 48px hsl(0, 0%, 16%),
+    inset -4px 12px 48px hsl(0, 0%, 56%);
   border-radius: 3rem;
   justify-self: flex-end;
 }
@@ -122,17 +130,17 @@ body {
   right: 0;
   height: 36px;
   background: var(--gradient-color-red);
-  box-shadow: inset -10px 0 12px hsla(0, 0%, 0%, .1), 
-              inset 12px 0 12px hsla(0, 0%, 0%, .15);
-  transition: .3s;
+  box-shadow: inset -10px 0 12px hsla(0, 0%, 0%, 0.1),
+    inset 12px 0 12px hsla(0, 0%, 0%, 0.15);
+  transition: 0.3s;
 }
 
 .battery_liquid::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 8px;
   background: var(--gradient-color-red);
-  box-shadow: inset 0px -3px 6px hsla(0, 0%, 0%, .2);
+  box-shadow: inset 0px -3px 6px hsla(0, 0%, 0%, 0.2);
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -204,23 +212,23 @@ body {
 }
 
 footer {
-    text-align: center;
-    margin-top: 0;
+  text-align: center;
+  margin-top: 0;
 }
 
 footer a {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 footer a:hover {
-    color: chartreuse;
+  color: chartreuse;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
   .battery_card {
-    zoom: .8;
+    zoom: 0.8;
   }
 }
 
