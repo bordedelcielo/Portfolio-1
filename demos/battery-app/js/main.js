@@ -23,7 +23,7 @@ function initBattery() {
       } else if (batt.charging) {
         /* We validate if the battery is charging */
         batteryStatus.innerHTML = `Charging... <i class="ri-flashlight-line animated-green"></i>`;
-      } else if ((level <= 20) & !batt.charging) {
+      } else if ((level <= 20)) {
         /* We validate if the battery is low */
         batteryStatus.innerHTML = `Low battery <i class="ri-plug-line animated-red"></i>`;
       } else {
