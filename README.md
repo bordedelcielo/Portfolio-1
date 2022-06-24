@@ -5,6 +5,11 @@
 
 - 🔭 I’m currently working on **an e-commerce website with CRUD functionality using HTML/CSS, JavaScript & MongoDB.**
 
+- 🎚 I want to improve my portfolio by:
+</br>**● adding a hover effect to my porject images to display the links to the demo & code, as wel as stack information.**
+</br>**● include more full stack projects.**
+</br>**● add a section for graphic art design.**
+
 - 👨‍💻 Here's the link to my portfolio [CorriCodes](https://corricodes.netlify.app/).
 
 - ⚡ Fun fact **I began my coding career because I wanted to build a website for my own teaching studio and fell in love with coding 😍**
