@@ -1,7 +1,14 @@
+![CorriCodesScrn](https://user-images.githubusercontent.com/95197153/175522258-c7cd68d2-e3c7-4178-85e9-17af365864fa.png)
+
 <h1 align="center">This is my Portfolio</h1>
 <h3 align="center">A collection of my most recent projects.</h3>
 
-- 🔭 I’m currently working on **creating more projects using JavaScript and other languages I've learned.**
+- 🔭 I’m currently working on **an e-commerce website with CRUD functionality using HTML/CSS, JavaScript & MongoDB.**
+
+- 🎚 I want to improve my portfolio by:
+</br>**● adding a hover effect to my project images to display the links to the demo & code, as well as stack information.**
+</br>**● include more full stack projects with CRUD functionality and APIs.**
+</br>**● add a section for graphic art design.**
 
 - 👨‍💻 Here's the link to my portfolio [CorriCodes](https://corricodes.netlify.app/).
 
