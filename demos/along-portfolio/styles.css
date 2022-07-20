@@ -1,28 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background: #434750;
 }
 
+h2 {
+  color: #dbee33;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50rem;
+}
+
 .banner {
-  height: 30vh;
   display: block;
   position: absolute;
   margin: 0;
   padding: 0;
   top: 0;
   align-items: center;
+}
+
+.banner img {
+  height: 15rem;
 }
 
 .menu {
@@ -99,4 +108,46 @@ ul li a:hover {
 
 ul li:last-child:after {
   box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio {
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_card {
+  color: #999;
+  background: #3e3f46;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.about {
+  width: 90%;
+  color: #999;
+  background: #3e3f46;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+.skills {
+  width: 90%;
+  color: #999;
+  background: #3e3f46;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 800px) {
+  .portfolio_container {
+    margin: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
