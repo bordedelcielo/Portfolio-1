@@ -363,7 +363,7 @@ body.light-theme {
 .home {
   background: var(--background-image);
   background-attachment: fixed;
-  height: 60rem;
+  height: 100vh;
 }
 
 .home_container {
