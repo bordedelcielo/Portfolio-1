@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Fraunces:opsz,wght@9..144,600&family=Roboto+Slab:wght@900&display=swap');
+
+:root {
+    /* ## Colors  */
+
+    /* ### Primary  */
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --light-moderate-cyan: hsl(166, 49%, 76%);
+
+    /* ### Neutral  */
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    width: fit-content;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    margin: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+p,
+span {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 0 3rem;
+}
+
+span {
+    font-size: 1rem;
+    color: var(--grayish-blue);
+}
+
+nav {
+    font-family: 'Barlow', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    /* visibility: hidden; */
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav ul li {
+    padding: 0 1rem;
+}
+
+.header-nav a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.home {
+    background-image: url("/demos/branding-page/images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 1.5rem;
+    height: 100vh;
+}
+
+.home h1 {
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+
+.down-arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.down-arrow img {
+    height: 200px;
+    margin-top: 2.5rem;
+}
+
+.info {
+    display: flex;
+}
+
+.two {
+    flex-direction: row-reverse;
+}
+
+.first-section,
+.second-section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.first-section h2,
+h3,
+a {
+    color: var(--very-dark-desaturated-blue);
+}
+
+.first-section p {
+    color: var(--dark-grayish-blue);
+}
+
+.first-image {
+    background-image: url("/demos/branding-page/images/desktop/image-transform.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.second-section h2,
+h3,
+a {
+    color: var(--very-dark-desaturated-blue);
+}
+
+.second-section p {
+    color: var(--dark-grayish-blue);
+}
+
+.second-image {
+    background-image: url("/demos/branding-page/images/desktop/image-stand-out.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.third-section,
+.fourth-section {
+    position: absolute;
+    bottom: 5rem;
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+
+.third-image {
+    position: relative;
+    background-image: url("/demos/branding-page/images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    width: 50%;
+}
+
+.third-section {
+    position: absolute;
+    bottom: 5rem;
+    text-align: center;
+}
+
+.third-section h2,
+p {
+    color: var(--dark-desaturated-cyan);
+}
+
+.fourth-image {
+    position: relative;
+    background-image: url("/demos/branding-page/images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    width: 50%;
+}
+
+.fourth-section {
+    position: absolute;
+    bottom: 5rem;
+    text-align: center;
+}
+
+.fourth-section h2,
+p {
+    color: var(--dark-blue);
+}
+
+.testimonials {
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonials h4 {
+    color: var(--grayish-blue);
+}
+
+.testimonial-img {
+    margin-top: 5rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.client-testimonials {
+    display: flex;
+}
+
+.footer-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    justify-items: center;
+    grid-template-columns: repeat(2, 0fr);
+}
+
+.footer-img {
+    width: 25%;
+}
+
+footer {
+    background: var(--light-moderate-cyan);
+    padding: 2.5rem;
+}
+
+.footer-logo {
+    fill: var(--dark-moderate-cyan);
+    display: block;
+    margin: auto;
+}
+
+.footer-nav {
+    max-width: 100%;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    color: var(--dark-moderate-cyan);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.attribution {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.75rem;
+    color: var(--grayish-blue);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--dark-moderate-cyan);
+}
+
+@media (max-width: 400px) {
+
+    body {
+        width: 400px;
+    }
+
+    .home {
+        background-image: url("/demos/branding-page/images/mobile/image-header.jpg");
+    }
+
+    .info {
+        display: block;
+    }
+
+        .two {
+            flex-direction: row-reverse;
+        }
+    
+        .first-section,
+        .second-section {
+            width: 100%;
+            height: 50vh;
+            margin: auto;
+            text-align: center;
+        }
+    
+        .first-image {
+            background-image: url("/demos/branding-page/images/mobile/image-transform.jpg");
+            width: 100%;
+            height: 50vh;
+        }
+    
+        .second-image {
+            background-image: url("/demos/branding-page/images/mobile/image-stand-out.jpg");
+            width: 100%;
+            height: 50vh;
+        }
+
+    .third-image {
+        background-image: url("/demos/branding-page/images/mobile/image-graphic-design.jpg");
+        width: 100%;
+    }
+
+    .fourth-image {
+        background-image: url("/demos/branding-page/images/mobile/image-photography.jpg");
+        width: 100%;
+    }
+
+    .client-testimonials {
+        display: block;
+    }
+
+    .footer-imgs {
+        display: grid;
+        justify-content: center;
+        margin-top: 5rem;
+        justify-items: center;
+        grid-template-columns: repeat(2, 0fr);
+    }
+
+    .footer-img {
+        width: 200px;
+    }
+
+}
