@@ -3,11 +3,11 @@
 <h1 align="center">This is my Portfolio</h1>
 <h3 align="center">A collection of my most recent projects.</h3>
 
-- 🔭 I’m currently working on **an e-commerce website with CRUD functionality using HTML/CSS, JavaScript & MongoDB.**
+- 🔭 I’m currently working on **building more full stack applications and learning Ruby on Rails.**
 
 - 🎚 I want to improve my portfolio by:
 </br>**● adding a hover effect to my project images to display the links to the demo & code, as well as stack information.**
-</br>**● include more full stack projects with CRUD functionality and APIs.**
+</br>**● start a blog about some of the challenges I've encountered and how I solved them.**
 </br>**● add a section for graphic art design.**
 
 - 👨‍💻 Here's the link to my portfolio [CorriCodes](https://corricodes.netlify.app/).
